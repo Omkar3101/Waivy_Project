@@ -283,7 +283,7 @@ async function playMusic(songPath) {
 async function getGroups() {
     try {
         // Use current window location instead of hardcoded port
-        let baseUrl = window.location.origin;
+        let baseUrl = "https://media.githubusercontent.com/media/Omkar3101/Waivy_Project/refs/heads/main";
         let res = await fetch(`${baseUrl}/Songs`);
     let html = await res.text();
     let div = document.createElement("div");
@@ -305,7 +305,7 @@ async function getGroups() {
 
 async function getPlaylists(groupLink) {
     try {
-        let baseUrl = window.location.origin;
+        let baseUrl = "https://media.githubusercontent.com/media/Omkar3101/Waivy_Project/refs/heads/main";
         let response = await fetch(`${baseUrl}/Songs/${groupLink}`);
     let html = await response.text();
     let div = document.createElement("div");
@@ -330,7 +330,7 @@ async function getPlaylists(groupLink) {
 
 async function getSongs(groupLink, playlistLink) {
     try {
-        let baseUrl = window.location.origin;
+        let baseUrl = "https://media.githubusercontent.com/media/Omkar3101/Waivy_Project/refs/heads/main";
         let url = `${baseUrl}/Songs/${groupLink.replace(/\/$/, "")}/${playlistLink.replace(/^\//, "")}`;
     let res = await fetch(url);
     let html = await res.text();

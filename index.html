@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waivy - Web Player: Music for everyone</title>
+    <link rel="shortcut icon" href="/Images/Waivy Icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerContainer1">
+            <div class="logoContainer flex">
+                <div class="logo">
+                    <img src="/Images/Waivy logo.png" alt="Spotify logo" height="100px">
+                </div>
+            </div>
+            <div class="searchContainer flexCenter">
+                <div class="home flexCenter hoverScale">
+                    <img src="/Images/homeOn.svg" alt="home" height="100px">
+                </div>
+                <div class="search flex" tabindex="0">
+                    <div class="searchInput flexCenter">
+                        <img src="/Images/searchOff.svg" class="searchIcon" alt="search" height="100px">
+                        <input type="text" placeholder="What do you want to play?">
+                        <img src="/Images/clear.svg" alt="clear" class="clearSearch">
+                    </div>
+                    <div class="line flex">
+                        <img src="/Images/browse.svg" alt="browser" height="100px">
+                    </div>
+                </div>
+            </div>
+            <div class="navContainer flexCenter">
+                <nav class="flex">
+                    <ul class="flex">
+                        <li>
+                            <img src="/Images/communities.svg" alt="Communities" class="hoverScale">
+                        </li>
+                        <li>
+                            <img src="/Images/notification.svg" class="hoverScale" alt="notification">
+                        </li>
+                        <li class="flexCenter hoverScale"><a href="">O</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="headerContainer2">
+            <div class="profile">
+                O
+            </div>
+            <div class="filter flex">
+                <p class="filterButton flexCenter all active">All</p>
+                <p class="filterButton flexCenter recent">Recent</p>
+                <p class="filterButton flexCenter music">Music</p>
+                <p class="filterButton flexCenter playlists">Playlists</p>
+                <p class="filterButton flexCenter albums">Albums</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container flex">
+
+        <div class="leftContainer flex">
+            <div class="sideBar flex">
+                <nav>
+                    <ul class="flex">
+                        <li>
+                            <div class="openButton flexCenter">
+                                <img src="/Images/openCollapse.svg" alt="library" height="30px">
+                            </div>
+                            <div class="libraryButton flexCenter">
+                                <img src="/Images/library.svg" alt="library" height="30px">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="createButton flexCenter">
+                                <img src="/Images/create.svg" alt="create" height="20px">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="folderButton flexCenter">
+                                <img src="/Images/folder.svg" alt="folder" height="24px">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="playingPlaylistButton flexCenter">
+                                <img src="/Images/Playlists/default.jpg" alt="" height="45px">
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="libraryContainer flex">
+                <div class="collapse hoverScale">
+                    <img src="/Images/openCollapse.svg" alt="collapse" height="24px">
+                </div>
+                <div class="libraryHeading flex">
+                    <h1>Your Library</h1>
+                    <div class="createButton flex">
+                        <img src="/Images/create.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="playingPlaylistContainer">
+            </div>
+        </div>
+        <div class="centerContainer">
+            <div class="cardContainerGroups flex">
+            </div>
+            <div class="footer">
+                <div class="linksSocial flex">
+                    <div class="footerLinks1 flex">
+                        <div class="footerLink1 flex">
+                            <p>Company</p>
+                            <a href="" class="hoverUnderline">About</a>
+                            <a href="" class="hoverUnderline">Jobs</a>
+                            <a href="" class="hoverUnderline">For the Record</a>
+                        </div>
+                        <div class="footerLink2 flex">
+                            <p>Communities</p>
+                            <a href="" class="hoverUnderline">For Artists</a>
+                            <a href="" class="hoverUnderline">Developers</a>
+                            <a href="" class="hoverUnderline">Advertising</a>
+                            <a href="" class="hoverUnderline">Investors</a>
+                            <a href="" class="hoverUnderline">Vendors</a>
+                        </div>
+                        <div class="footerLink3 flex">
+                            <p>Useful links</p>
+                            <a href="" class="hoverUnderline">Support</a>
+                            <a href="" class="hoverUnderline">Free Mobile App</a>
+                            <a href="" class="hoverUnderline">Popular by Country</a>
+                        </div>
+                        <div class="footerLink4 flex">
+                            <p>Waivy Plans</p>
+                            <a href="" class="hoverUnderline">Premium Individual</a>
+                            <a href="" class="hoverUnderline">Premium Duo</a>
+                            <a href="" class="hoverUnderline">Premium Family</a>
+                            <a href="" class="hoverUnderline">Premium Student</a>
+                            <a href="" class="hoverUnderline">Waivy Free</a>
+                        </div>
+                    </div>
+                    <div class="footerSocialMedia flex">
+                        <a href="https://www.instagram.com" class="flexCenter"><img src="/Images/instagram.svg"
+                                alt="instagram"></a>
+                        <a href="https://www.x.com" class="flexCenter"><img src="/Images/twitter.svg" alt="twitter"></a>
+                        <a href="https://www.facebook.com" class="flexCenter"><img src="/Images/facebook.svg"
+                                alt="facebook"></a>
+                    </div>
+                </div>
+                <div class="footerLinks2 flex">
+                    <a href="" class="hoverUnderline">Legal</a>
+                    <a href="" class="hoverUnderline">Safety & Privacy Center</a>
+                    <a href="" class="hoverUnderline">Privacy Policy</a>
+                    <a href="" class="hoverUnderline">Cookies</a>
+                    <a href="" class="hoverUnderline">About Ads</a>
+                    <a href="" class="hoverUnderline">Accessibility</a>
+                    <p class="copycenter">© 2025 Waivy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="videoContainer hidden">
+        <div class="fullScreenHeader">
+            <div class="playlistName hoverUnderline pointer">
+            </div>
+            <div class="fullScreenButton">
+                <div class="videoButton">
+                    <img src="/Images/videoOn.svg" alt="videoOff">
+                </div>
+                <div class="artworkButton">
+                    <img src="/Images/artworkOff.svg" alt="artworkOff">
+                </div>
+                <div class="artistButton">
+                    <img src="/Images/artistOff.svg" alt="artistOff">
+                </div>
+                <div class="moreOptionButton">
+                    <img src="/Images/moreOption.svg" alt="moreOption">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="playBar flex">
+        <div class="songInfo flex">
+
+        </div>
+        <div class="mainPlay">
+            <div class="playPause">
+                <div class="hoverScale">
+                    <img class="shuffle add" src="/Images/shuffleOff.svg" alt="shuffle">
+                </div>
+                <div class="hoverScale">
+                    <img class="previous add" src="/Images/previous.svg" alt="previous">
+                </div>
+                <div class="whitePlayButton hoverScale playBarButton">
+                    <img src="/Images/play.svg" alt="pause">
+                </div>
+                <div class="hoverScale">
+                    <img class="next add" src="/Images/next.svg" alt="next">
+                </div>
+                <div class="hoverScale repeat">
+                    <img class="repeatIcon add" src="/Images/repeatOff.svg" alt="repeat">
+                </div>
+            </div>
+            <div class="timeBar flexCenter">
+                <div class="startTime">
+                    0:00
+                </div>
+                <div class="seekBarContainer flexCenter">
+                    <input type="range" min="0" value="0" class="seekBar" step="0.01" title="Seek" />
+                </div>
+                <div class="endTime">
+                    0:00
+                </div>
+            </div>
+        </div>
+        <div class="playOptions">
+            <div class="flex Playing hoverScale">
+                <img class="playing" src="/Images/playing.svg" alt="">
+            </div>
+            <div class="flex Lyrics hoverScale">
+                <img class="lyrics" src="/Images/lyrics.svg" alt="">
+            </div>
+            <div class="flex Queue hoverScale">
+                <img class="queue" src="/Images/queue.svg" alt="">
+            </div>
+            <div class="flex Connectdevice hoverScale">
+                <img class="connectdevice" src="/Images/connectdevice.svg" alt="">
+            </div>
+            <div class="volumeBar flexCenter">
+                <img src="/Images/unmute.svg" alt="volume" class="volumeIcon hoverScale">
+                <div class="flex seekBarContainer">
+                    <input type="range" min="0" max="1" value="0.75" step="0.01" class="seekBar" title="Volume" />
+                </div>
+            </div>
+            <div class="flex Miniplayer hoverScale">
+                <img class="miniplayer" src="/Images/miniplayer.svg" alt="">
+            </div>
+            <div class="songFullScreenButton hoverScale">
+                <img class="fullScreen" src="/Images/fullScreen.svg" alt="fullScreen">
+            </div>
+        </div>
+    </div>
+    <div class="mainNav">
+        <!-- Replace or modify your existing nav buttons -->
+        <button class="navButton active">
+            <img src="/Images/homeOn.svg" alt="Home">
+            <span>Home</span>
+        </button>
+        <button class="navButton">
+            <img src="/Images/searchOff.svg" alt="Search">
+            <span>Search</span>
+        </button>
+        <button class="navButton">
+            <img src="/Images/libraryMon.svg" alt="Library">
+            <span>Library</span>
+        </button>
+        <button class="navButton">
+            <img src="/Images/create.svg" alt="Search">
+            <span>Create</span>
+        </button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.min.js"></script>
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
